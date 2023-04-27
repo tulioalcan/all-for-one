@@ -24,16 +24,6 @@ SELECT * FROM northwind.orders;
 
  # Requisitos do projeto
 
-Monte queries para encontrar as informações esperadas pelos desafios.
-
-- **:warning: Atenção:** Não é necessário colocar `USE northwind` ou `SET SQL_SAFE_UPDATES = 0;` no início dos seus arquivos
-
-- **:warning: Atenção:** Os testes são executados em uma cópia do banco de dados, o `northwind_tests`. Por isto as _querys_ devem indicar somente o nome da tabela, e não utilizar o formato `db.table`.
-
-- Exemplo de query `incorreta` **onde falhará o teste**: SELECT product_name FROM northwind.products;
-
-- Exemplo de query `correta`: SELECT product_name FROM products;
-
 ## Desafios Iniciais
 
 1 - Exiba apenas os nomes dos produtos na tabela `products`.
